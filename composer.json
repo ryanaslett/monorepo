@@ -17,5 +17,6 @@
             "type": "path",
             "url": "pathrepo_test"
         }
-    ]
+    ],
+    "prefer-stable": true
 }
