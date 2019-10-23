@@ -1,0 +1,21 @@
+{
+    "name": "ryanaslett/monorepo",
+    "description": "monorepo demo of bug",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ryan Aslett (Mixologic)",
+            "email": "ryan@association.drupal.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ryanaslett/pathrepo_test": "self.version"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "pathrepo_test"
+        }
+    ]
+}

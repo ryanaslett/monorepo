@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d60786777273850c835f14794acc7bd9",
+    "packages": [
+        {
+            "name": "ryanaslett/arbitrary_dependency",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryanaslett/arbitrary_dependency.git",
+                "reference": "5937e596d7bcd51c72146089cbd3f871c8942a59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryanaslett/arbitrary_dependency/zipball/5937e596d7bcd51c72146089cbd3f871c8942a59",
+                "reference": "5937e596d7bcd51c72146089cbd3f871c8942a59",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ryan Aslett (Mixologic)",
+                    "email": "ryan@association.drupal.org"
+                }
+            ],
+            "time": "2019-10-23T13:03:44+00:00"
+        },
+        {
+            "name": "ryanaslett/pathrepo_test",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "pathrepo_test",
+                "reference": "3f234f6fadacd22144d54050252fa160791888f1"
+            },
+            "require": {
+                "ryanaslett/arbitrary_dependency": "^1.0"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Ryan Aslett (Mixologic)",
+                    "email": "ryan@association.drupal.org"
+                }
+            ],
+            "description": "subordinate path_repo for demo of test"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ryanaslett/pathrepo_test": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
